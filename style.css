@@ -1,0 +1,134 @@
+body {
+background-color:#D5D5D5;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+.heading {
+display: flex;
+justify-content: center;
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 37px;
+    font-family: 'Zen Old Mincho', serif;
+}
+.container {
+display: flex;
+}
+.item {
+height: 90vh;
+background-size: cover;
+background-position: center;
+flex: 1;
+margin: 5px;
+position: relative;
+}
+h4 {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    background-color: #fff;
+    color: #000000;
+    font-size: 0;
+   
+}
+.par {
+ position: absolute;
+ top: 100px;
+ left: 40px;
+ background-color: #fff;
+ color:black;
+ font-size: 0;
+}
+.price {
+position: absolute;
+bottom: 40px;
+left: 40px;
+background-color: #fff;
+color: #000000;
+}
+
+
+img {
+
+    width: 90vh;
+}
+.one {
+   background-image: url('https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJtd3xlbnwwfDF8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+}
+.two {
+    background-image: url('https://images.unsplash.com/photo-1570374910698-6db3d787e6fb?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9yc2NoZXxlbnwwfDF8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+}
+.three{
+    background-image: url('https://images.unsplash.com/photo-1582467029213-ce71667c2e28?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9yZHxlbnwwfDF8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+}
+.four {
+    background-image: url('https://images.unsplash.com/photo-1620891549027-942fdc95d3f5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dGVzbGF8ZW58MHwxfDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+}
+.five {
+    background-image: url('https://images.unsplash.com/photo-1607853203100-69829c08b88e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dm9sa3N3YWdlbnxlbnwwfDF8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+}
+
+.six {
+    background-image: url('https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXVkaXxlbnwwfDF8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+}
+.selected{
+    flex: 4;
+}
+.selected h4 {
+    font-size: 40px;
+    transition: all 1s ease-in;
+}
+.selected .par{
+    font-size: 20px;
+    transition: all 1s ease-in;
+}
+.selected .price {
+    font-size: 35px;
+    transition: all 1s ease-in;
+} 
+h3 {
+font-size: 30px;
+}
+.label {
+    font-size: 20px;
+    font-family: 'Zen Old Mincho', serif;
+
+}
+.text-input {
+background-color: #D5D5D5;
+border: none;
+padding: 12px 20px;
+}
+.btn {
+    font-family: 'Zen Old Mincho', serif;
+    font-size: 20px;
+    background-color: #191A19;
+    color: white;
+    flex: 1;
+}
+@media all and (max-width:800px){
+    .container {
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+    }
+}
+@media all and (max-width: 500px){
+h1 {
+font-size: 40px;
+  text-align: center;
+}
+.item {
+    height: 60vh;
+}
+
+}
+
